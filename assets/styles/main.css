@@ -272,16 +272,16 @@ a {
 
 /* section interval image */
 .wowa-custom-image-section {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height:600px;
     width: 100vw;
 }
 
 .first-image-section {
-    background-image: url('.slider/image3.jpeg');
+    background-image: url('slider/image3.jpeg');
 }
 
 .second-image-section {
