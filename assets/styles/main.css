@@ -1,0 +1,511 @@
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* back to top button */
+.back-to-top-button {
+    opacity: 0;
+}
+
+.back-to-top {
+    color: #fff ;
+    background-color: #000;
+    border-radius: 0px;
+    border: 1px none;
+    width: 45px;
+    height:45px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    padding-top: 10px;
+    z-index: 2;
+    text-align: center;
+    opacity: 0;
+}
+
+.back-to-top-secondary {
+    width: 45px;
+    height:45px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #7ea2c7;
+    z-index: 1;
+    opacity: 0;
+}
+
+.back-to-top:hover {
+    color: #7ea2c7;
+    transform: scale(1.02);
+}
+
+.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* header */
+.custom-navbar {
+    background-color: #000;
+}
+
+.custom-navbar-brand {
+    height: 40px;
+    width: 140px;
+    margin-right: 25px;
+}
+
+.custom-navbar-links {
+    text-transform: uppercase;
+}
+
+.navbar-phone-number {
+    color: lightgray !important;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.navbar-phone-number:hover {
+    color: lightgray;
+    margin-right: 15px;
+    transition: 0.5s ease;
+}
+
+.custom-navbar-links a{
+    color: #fff;
+    font-size: 16px;
+}
+
+.custom-navbar-links a:hover {
+    color: #7ea2c7;
+}
+
+.custom-navbar-toggler {
+    color: #fff;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 830px) {
+    .navbar-phone-number {
+        display: none !important;
+    }
+}
+
+/* slider intro */
+.custom-intro-slider {
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    background-image: url('/assets/img/slider/image1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wowa-custom-intros-lider-banner {
+    width:400px;
+    height:175px;
+    position: absolute;
+    top: calc(50% - 100px);
+    left: 0;
+    padding: 15px;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 420px) {
+    .wowa-custom-intros-lider-banner {
+        width:250px;
+        height:230px;
+    }
+}
+
+.slide-down {
+    padding: 5px;
+    color: #fff ;
+    background-color: #000;
+    border-radius: 0px;
+    border: none;
+    width: 200px;
+    height:45px;
+    position: absolute;
+    padding-top: 5px;
+    bottom: 15px;
+    right: calc(50% - 100px);
+    z-index: 2;
+    text-align: center;
+    text-decoration: none;
+    overflow-y: hidden;
+}
+
+.slide-down:hover {
+    color: #7ea2c7;
+    transform: scale(1.02);
+}
+
+.custom-arrow-down {
+    transform: translateY(-5px);
+    animation: slide-down-animation 2s infinite linear;
+}
+
+.slide-down-secondary {
+    width: 200px;
+    height:45px;
+    position: absolute;
+    bottom: 10px;
+    right: calc(50% - 105px);
+    background-color: #7ea2c7;
+    z-index: 1;
+}
+
+@keyframes slide-down-animation {
+    0% {
+        padding-top: -20px;
+    }
+
+    25% {
+        padding-top: 0px;
+    }
+
+    50% {
+        padding-top: 20px;
+    }
+
+    75% {
+        padding-top: 0px;
+    }
+
+    100% {
+        padding-top: -20px;
+    }
+}
+
+
+/* Footer */
+.wowa-footer-black {
+    padding: 15px;
+    background-color: #000;
+    color: #fff;
+    font-size: 11px;
+    min-height:150px;
+    height: auto;
+    text-align: center;
+}
+
+.wowa-footer-black h5 {
+    text-align: center;
+}
+
+.wowa-footer-logo-column {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.wowa-footer-logo {
+    height: 35px;
+    width: 140px;
+}
+
+.wowa-team-copy-rights-mj {
+    padding-top: 25px;
+    text-align: center;
+}
+
+/* wowa-team-about-us */
+#wowa-team-about-us {
+    padding-bottom: 45px;
+}
+
+.wowa-team-custom-logo-banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.wowa-team-custom-logo-banner img {
+    width: 50%;
+}
+
+.wowa-team-about-us-image {
+    width: 100%;
+    height: 100%;
+    transform: scale(0.8);
+}
+
+.wowa-team-about-us-adds-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.wowa-team-usp-bar-item {
+    display: flex;
+    padding: 5px;
+    height: 85px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.wowa-team-usp-bar-item p {
+    margin-left: 10px;
+}
+
+.wowa-team-usp-bar-item img {
+    width: 75px;
+    height: 75px;
+}
+
+.wowa-about-brand-info div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+}
+
+.wowa-about-brand-info p {
+    text-align: justify;
+}
+
+/* section interval image */
+.wowa-custom-image-section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:600px;
+    width: 100vw;
+}
+
+.first-image-section {
+    background-image: url('/assets/img/slider/image3.jpeg');
+}
+
+.second-image-section {
+    background-image: url('/assets/img/slider/image2.jpeg');
+}
+
+.third-image-section {
+    background-image: url('/assets/img/slider/image4.jpeg');
+}
+
+/* section services */
+#wowa-team-services {
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+.wowa-team-services-header {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.wowa-custom-service-card {
+    border:1px solid black;
+    min-height: 475px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.wowa-custom-service-card span{
+    width: 200px;
+    height: 45px;
+    background-color: #000;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+    color: #7ea2c7;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.wowa-custom-service-card-price-secondary {
+    background-color: #7ea2c7;
+    width: 200px;
+    height: 45px;
+    position: relative;
+    top: -40px;
+    left: calc(50% - 95px);
+    z-index: -1;
+}
+
+.wowa-custom-service-card img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+.wowa-service-counter-header {
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+.wowa-services-counter-card {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.wowa-services-counter-card img {
+    width: 50px;
+    height: 50px;
+    margin-top:10px;
+}
+
+.wowa-service-counter-text {
+    padding-left: 15px;
+}
+
+/* section projects */
+.wowa-team-projects-header {
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+
+.wowa-team-custom-gallery-slider {
+    width: 100%;
+    height:500px;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wowa-team-custom-gallery-current-slide {
+    width: 800px;
+    height: 400px;
+    border:1px solid black;
+    z-index: 2;
+}
+
+.wowa-team-custom-gallery-previous-slide {
+    width: 500px;
+    height: 350px;
+    border: 1px solid green;
+    position: relative;
+    left: 100px;
+    z-index: 1;
+}
+
+.wowa-team-custom-gallery-next-slide {
+    width: 500px;
+    height: 350px;
+    border: 1px solid green;
+    position: relative;
+    left: -100px;
+    z-index: 1;
+}
+
+/* section contact */
+.wowa-team-contant-header {
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+
+.wowa-team-contant-header p{
+    margin-bottom: 15px;
+}
+
+.wowa-team-contact-form {
+    width: 100%;
+    text-align: center;
+}
+
+.wowa-team-contant-button {
+    height:45px;
+    width: 200px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    display: block;
+    margin-left: calc(50% - 100px);
+}
+
+.wowa-team-contant-button:hover {
+    color: #7ea2c7;
+    transform: scale(1.02);
+}
+
+.wowa-team-contant-button-secondary {
+    height: 45px;
+    width: 200px;
+    background-color: #7ea2c7;
+    z-index: -1;
+    position: relative;
+    top: -40px;
+    left: calc(50% - 95px);
+}
+
+.wowa-team-custom-contact-form input {
+    width: 200px;
+    height: 35px;
+    border: 0px;
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.wowa-team-custom-contact-form textarea {
+    min-width: 200px;
+    resize: none;
+    min-height: 100px;
+    height: auto;
+    border: 0px;
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+}
+
+@media screen and (min-width: 428px) {
+    .wowa-team-custom-contact-form textarea {
+        width: 400px;
+    }
+}
+
+.wowa-team-contact-item {
+    width: 200px;
+    display: inline-block;
+    height: 45px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    color: #000;
+}
+
+.wowa-team-contact-item  {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.wowa-team-contact-item i {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    position: relative;
+    top: 0px;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.wowa-team-contact-item:hover i{
+    color: #7ea2c7;
+    transform: scale(1.02);
+}
+
+.wowa-team-contact-item-secondary {
+    height: 45px;
+    width: 45px;
+    background-color: #7ea2c7;
+    z-index: -1;
+    position: relative;
+    top: -40px;
+    left: 5px;
+}
