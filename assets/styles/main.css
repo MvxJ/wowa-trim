@@ -275,8 +275,8 @@ a {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    height:600px;
+    background-size: cover !important;
+    height:50vh;
     width: 100vw;
 }
 
@@ -426,6 +426,7 @@ a {
     background-color: #000;
     color: #fff;
     display: block;
+    border-radius: 0px !important;
     margin-left: calc(50% - 100px);
 }
 
@@ -448,6 +449,7 @@ a {
     width: 200px;
     height: 35px;
     border: 0px;
+    border-radius: 0px !important;
     border-bottom: 1px solid black;
     margin-bottom: 15px;
 }
@@ -458,6 +460,7 @@ a {
     min-height: 100px;
     height: auto;
     border: 0px;
+    border-radius: 0px !important;
     border-bottom: 1px solid black;
     margin-bottom: 15px;
 }
@@ -492,7 +495,7 @@ a {
     position: relative;
     top: 0px;
     padding: 15px;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .wowa-team-contact-item:hover i{
