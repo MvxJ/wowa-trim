@@ -276,8 +276,17 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover !important;
-    height:50vh;
+    height:500px;
     width: 100vw;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .wowa-custom-image-section {
+        background-attachment:scroll !important;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+    }
 }
 
 .first-image-section {
