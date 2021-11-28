@@ -220,9 +220,14 @@ a {
 }
 
 .wowa-team-custom-logo-banner {
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
     text-align: center;
+}
+
+.wowa-about-brand-image-column {
+    text-align: center;
+    align-items: center;
 }
 
 .wowa-team-custom-logo-banner img {
@@ -230,9 +235,9 @@ a {
 }
 
 .wowa-team-about-us-image {
-    width: 100%;
-    height: 100%;
-    transform: scale(0.8);
+    width: 75%;
+    height: 80%;
+    background-position: center;
 }
 
 .wowa-team-about-us-adds-header {
@@ -401,14 +406,15 @@ a {
     padding-top: 10px;
     width: 200px;
     text-align: center;
+    cursor: pointer;
 }
 
-.wowa-team-gallery-select.active {
+.wowa-team-gallery-select.activeGalletySelect {
     font-weight: bold;
     color: lightgray;
 }
 
-.wowa-team-gallery-select.active:hover {
+.wowa-team-gallery-select.activeGalletySelect:hover {
     color:lightgray;
 }
 
@@ -433,7 +439,7 @@ a {
     display: none;
 }
 
-.wowa-team-custom-gallery-slider.active {
+.wowa-team-custom-gallery-slider.activeGallery {
     display: block;
 }
 
@@ -538,7 +544,7 @@ a {
 }
 
 .wowa-team-contact-item {
-    width: 200px;
+    width: 220px;
     display: inline-block;
     height: 45px;
     padding-top: 0px;
