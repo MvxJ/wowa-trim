@@ -416,6 +416,7 @@ a {
 
 .wowa-team-gallery-select.activeGalletySelect:hover {
     color:lightgray;
+    cursor: text;
 }
 
 .wowa-team-gallery-select:hover {
@@ -464,14 +465,14 @@ a {
     margin-left: 5px;
 }
 
-.wowa-team-custom-gallery-slider > ul > li > img {
+.wowa-team-custom-gallery-slider > ul > li > a > img {
     width: 100%;
     height: 100%;
     background-position: center;
     transition: 0.3s ease-in-out;
 }
 
-.wowa-team-custom-gallery-slider > ul > li > img:hover {
+.wowa-team-custom-gallery-slider > ul > li > a > img:hover {
     transform: scale(1.02);
 }
 
