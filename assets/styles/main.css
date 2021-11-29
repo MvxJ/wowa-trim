@@ -100,7 +100,7 @@ a {
     height: 100vh;
     width: 100vw;
     background-color: #fff;
-    background-image: url('slider/image1.jpeg');
+    background-image: url('slider/image1.JPG');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -225,19 +225,8 @@ a {
     text-align: center;
 }
 
-.wowa-about-brand-image-column {
-    text-align: center;
-    align-items: center;
-}
-
 .wowa-team-custom-logo-banner img {
     width: 50%;
-}
-
-.wowa-team-about-us-image {
-    width: 75%;
-    height: 80%;
-    background-position: center;
 }
 
 .wowa-team-about-us-adds-header {
@@ -262,13 +251,19 @@ a {
     height: 75px;
 }
 
-.wowa-about-brand-info div{
+.wowa-about-brand-info div {
     height: 100%;
     display: flex;
     flex-direction: column;
     vertical-align: middle;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .wowa-about-brand-info div {
+        flex-direction: column !important;
+    }
 }
 
 .wowa-about-brand-info p {
@@ -287,20 +282,20 @@ a {
 
 @media screen and (max-width: 800px) {
     .wowa-custom-image-section {
-        background-attachment: scroll !important;
+        background-attachment: unset !important;
     }
 }
 
 .first-image-section {
-    background-image: url('slider/image3.jpeg');
+    background-image: url('slider/image3.JPG');
 }
 
 .second-image-section {
-    background-image: url('slider/image2.jpeg');
+    background-image: url('slider/image2.JPG');
 }
 
 .third-image-section {
-    background-image: url('slider/image4.jpeg');
+    background-image: url('slider/image4.JPG');
 }
 
 /* section services */
@@ -315,7 +310,6 @@ a {
 }
 
 .wowa-custom-service-card {
-    border:1px solid black;
     min-height: 475px;
     height: auto;
     text-align: center;
