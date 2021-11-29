@@ -285,9 +285,9 @@ a {
     width: 100vw;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
     .wowa-custom-image-section {
-        background-size: 100% !important;
+        background-attachment: unset !important;
     }
 }
 
