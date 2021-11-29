@@ -280,9 +280,15 @@ a {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover !important;
+    background-size: cover;
     height:500px;
     width: 100vw;
+}
+
+@media screen and (max-width: 400px) {
+    .wowa-custom-image-section {
+        background-size: 100% !important;
+    }
 }
 
 .first-image-section {
