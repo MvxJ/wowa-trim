@@ -262,6 +262,10 @@ a {
     transform: translateX(-5px);
 }
 
+.wowa-footer-column-description {
+    text-align: justify;
+}
+
 /* wowa-team-about-us */
 #wowa-team-about-us {
     padding-bottom: 45px;
