@@ -1,9 +1,29 @@
+/* basic styles */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
 body {
     overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a {
     text-decoration: none !important;
+}
+
+/* preloader */
+.wowa-custom-preloader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('preloader/squares_preloader.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
 }
 
 /* back to top button */
@@ -61,6 +81,7 @@ a {
 
 .custom-navbar-links {
     text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-phone-number {
@@ -108,7 +129,8 @@ a {
 
 .wowa-custom-intros-lider-banner {
     width:400px;
-    height:175px;
+    min-height:175px;
+    height: auto;
     position: absolute;
     top: calc(50% - 100px);
     left: 0;
@@ -118,8 +140,9 @@ a {
 
 @media screen and (max-width: 420px) {
     .wowa-custom-intros-lider-banner {
-        width:250px;
-        height:230px;
+        width: 250px;
+        min-height: 230px;
+        height: auto;
     }
 }
 
@@ -212,6 +235,31 @@ a {
 .wowa-team-copy-rights-mj {
     padding-top: 25px;
     text-align: center;
+    color: lightgray;
+}
+
+.wowa-footer-column-links a {
+    display: block;
+    padding-bottom: 5px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.wowa-footer-column-links a:hover {
+    color: #7ea2c7;
+    transform: translateX(-5px);
+}
+
+.wowa-footer-column-contact a {
+    display: block;
+    padding-bottom: 5px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.wowa-footer-column-contact a:hover {
+    color: #7ea2c7;
+    transform: translateX(-5px);
 }
 
 /* wowa-team-about-us */
@@ -232,6 +280,21 @@ a {
 .wowa-team-about-us-adds-header {
     text-align: center;
     margin-bottom: 25px;
+}
+
+@media screen and (max-width: 1400px) and (min-width: 575px) {
+    .wowa-usp-bar-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .wowa-usp-bar-item-column {
+        display: block;
+        width: 400px !important;
+    }
 }
 
 .wowa-team-usp-bar-item {
@@ -260,11 +323,7 @@ a {
     justify-content: center;
 }
 
-@media screen and (max-width: 800px) {
-    .wowa-about-brand-info div {
-        flex-direction: column !important;
-    }
-}
+wowa-team-usp-bar-item
 
 .wowa-about-brand-info p {
     text-align: justify;
