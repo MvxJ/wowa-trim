@@ -377,28 +377,7 @@ wowa-team-usp-bar-item
     height: auto;
     text-align: center;
     margin-bottom: 25px;
-}
-
-.wowa-custom-service-card span{
-    width: 200px;
-    height: 45px;
-    background-color: #000;
-    display: inline-block;
-    text-align: center;
-    padding-top: 10px;
-    color: #7ea2c7;
-    z-index: 1;
-    font-weight: bold;
-}
-
-.wowa-custom-service-card-price-secondary {
-    background-color: #7ea2c7;
-    width: 200px;
-    height: 45px;
-    position: relative;
-    top: -40px;
-    left: calc(50% - 95px);
-    z-index: -1;
+    box-shadow: 15px 15px 15px lightgray;
 }
 
 .wowa-custom-service-card img {
