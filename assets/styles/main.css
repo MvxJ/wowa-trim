@@ -533,6 +533,28 @@ wowa-team-usp-bar-item
     transform: scale(1.02);
 }
 
+.gallery-page-button {
+    width: 150px;
+    height: 45px;
+    background-color: #000;
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+    margin-left: calc(50% - 75px);
+    cursor: pointer;
+}
+
+.gallery-page-button-second {
+    width: 150px;
+    height: 45px;
+    background-color: #7ea2c7;
+    margin-left: calc(50% - 70px);
+    margin-top: -40px;
+    position: relative;
+    z-index: -1;
+    margin-bottom: 25px;
+}
+
 /* section contact */
 .wowa-team-contant-header {
     text-align: center;
