@@ -304,7 +304,7 @@ a {
 .wowa-team-usp-bar-item {
     display: flex;
     padding: 5px;
-    height: 85px;
+    min-height: 85px;
     text-align: left;
     margin-bottom: 15px;
 }
@@ -330,6 +330,10 @@ a {
 wowa-team-usp-bar-item
 
 .wowa-about-brand-info p {
+    text-align: justify;
+}
+
+.wowa-about-brand-text-place-box p {
     text-align: justify;
 }
 
@@ -370,6 +374,12 @@ wowa-team-usp-bar-item
 .wowa-team-services-header {
     text-align: center;
     padding-bottom: 25px;
+}
+
+.wowa-team-services-header span {
+    font-family: 'Licorice', cursive;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .wowa-custom-service-card {
