@@ -731,6 +731,9 @@ wowa-team-usp-bar-item
 .error-section {
     margin-top: 65px;
     height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .error-text img {
@@ -747,7 +750,7 @@ wowa-team-usp-bar-item
     padding: 15px;
     height: 100px;
     justify-content: center;
-    margin-top: calc(50% - 100px);
+    margin-bottom: 50px;
 }
 
 .error-card img {
@@ -762,7 +765,6 @@ wowa-team-usp-bar-item
     text-align: center;
     padding-top: 10px;
     margin-left: calc(50% - 100px);
-    margin-top: 15px;
 }
 
 .error-back-button:hover {
