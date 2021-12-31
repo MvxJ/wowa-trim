@@ -726,3 +726,55 @@ wowa-team-usp-bar-item
     top: -40px;
     left: 5px;
 }
+
+/* Error section */
+.error-section {
+    margin-top: 65px;
+    height: 100vh;
+}
+
+.error-text img {
+    width: 65px;
+    height: 65px;
+}
+
+.error-text {
+    justify-content: center;
+}
+
+.error-card {
+    display: flex;
+    padding: 15px;
+    height: 100px;
+    justify-content: center;
+    margin-top: calc(50% - 100px);
+}
+
+.error-card img {
+    margin-right: 15px;
+}
+
+.error-back-button {
+    height: 45px;
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: calc(50% - 100px);
+    margin-top: 15px;
+}
+
+.error-back-button:hover {
+    color: #7ea2c7;
+}
+
+.error-back-button-secondary {
+    height: 45px;
+    width: 200px;
+    background-color: #7ea2c7;
+    margin-left: calc(50% - 95px);
+    margin-top: -40px;
+    z-index: -1;
+    position: relative;
+}

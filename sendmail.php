@@ -56,6 +56,9 @@ $mailResponse = mail($mailTarget, $mailSubject, $message, $mailHeaders);
 if ($mailResponse) {
     header("Location: index.html#wowa-team-contact");
     die();
+} else {
+    header("Location: assets/error.html");
+    die();
 }
 
 ?>
