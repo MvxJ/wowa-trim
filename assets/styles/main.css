@@ -417,7 +417,7 @@ wowa-team-usp-bar-item
 }
 
 .wowa-custom-service-card {
-    min-height: 475px;
+    min-height: 500px;
     height: auto;
     text-align: center;
     margin-bottom: 25px;
@@ -430,6 +430,11 @@ wowa-team-usp-bar-item
     margin-bottom: 15px;
 }
 
+.wowa-custom-service-card div p {
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px
+}
 .wowa-service-counter-header {
     text-align: center;
     padding-top: 25px;
@@ -465,6 +470,17 @@ wowa-team-usp-bar-item
 }
 
 .wowa-team-full-range-of-service-items div:hover {
+    color: #7ea2c7;
+}
+
+.service-card-specified-services div {
+    display: inline-block;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.service-card-specified-services div:hover {
     color: #7ea2c7;
 }
 
