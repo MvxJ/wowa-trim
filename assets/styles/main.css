@@ -272,6 +272,14 @@ a {
     color: lightgray;
 }
 
+.wowa-team-copy-rights-mj a {
+    color: #7ea2c7;
+}
+
+.wowa-team-copy-rights-mj a:hover {
+    color: #7ea2c7;
+}
+
 .wowa-footer-column-links a {
     display: block;
     padding-bottom: 5px;
@@ -734,7 +742,15 @@ wowa-team-usp-bar-item
     align-items: center;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
+
+@media screen and (max-width: 400px) {
+    .error-section {
+        height: 50vh;
+    }
+}
+
 
 .error-text img {
     width: 65px;
