@@ -138,45 +138,12 @@ a {
     background-color: #fff;
 }
 
-.custom-slider-more-icon {
-    width: 100%;
-    text-align: center;
-}
-
-.custom-slider-close-icon {
-    width: 100%;
-    text-align: right;
-}
-
-.custom-slider-close-icon i:hover {
-    cursor: pointer;
-}
-
-.custom-slider-more-icon i:hover {
-    cursor: pointer;
-}
-
-.inactive-more-info-box {
-    opacity: 0;
-}
-
-.wowa-why-choose-us-text {
-    position: absolute;
-    background-color: #fff;
-    padding: 15px;
-    top:calc(50% - 150px);
-    left:calc(50% - 150px);
-    width:300px;
-    min-height:300px;
-    z-index: 100;
-    box-shadow: 5px 5px 15px black;
-}
-
 @media screen and (max-width: 420px) {
     .wowa-custom-intros-lider-banner {
         width: 250px;
         min-height: 230px;
         height: auto;
+        top: calc(50% - 150px);
     }
 }
 
