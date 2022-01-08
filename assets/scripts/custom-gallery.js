@@ -3,6 +3,8 @@ const toiletsGalleryBox = document.querySelector('#toiletsBox');
 const roomsGalleryBox = document.querySelector('#roomsBox');
 const secondToiletsGallery = document.querySelector("#next-page-gallery");
 const firstToiletsGallery = document.querySelector("#prev-page-gallery");
+const secondInteriorGallery = document.querySelector("#next-page-interior-gallery");
+const firstInteriorGallery = document.querySelector("#prev-page-interior-gallery");
 
 gardenGalleryBox.addEventListener('click', e => {
     const activeGallery = document.querySelectorAll('.activeGallery');
@@ -51,4 +53,20 @@ roomsGalleryBox.addEventListener('click', e => {
     activeGallerySelect['0'].classList.remove('activeGalletySelect');
     roomsGallery.classList.add('activeGallery');
     roomsGalleryBox.classList.add('activeGalletySelect');
+});
+
+secondInteriorGallery.addEventListener('click', e => {
+    const activeGallery = document.querySelectorAll('.activeGallery');
+    const secondGallery = document.querySelector('#rooms-second');
+
+    activeGallery[0].classList.remove('activeGallery'); 
+    secondGallery.classList.add('activeGallery');
+});
+
+firstInteriorGallery.addEventListener('click', e => {
+    const activeGallery = document.querySelectorAll('.activeGallery');
+    const firstGallery = document.querySelector('#rooms');
+
+    activeGallery[0].classList.remove('activeGallery'); 
+    firstGallery.classList.add('activeGallery');
 });
