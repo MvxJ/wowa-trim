@@ -1,0 +1,5 @@
+https://www.wowa.com.pl/index.html
+http://www.wowa.com.pl/index.html
+https://www.wowa.com.pl/assets/error.html
+http://www.wowa.com.pl/assets/error.html
+
